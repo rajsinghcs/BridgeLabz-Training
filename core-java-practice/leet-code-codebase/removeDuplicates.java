@@ -1,7 +1,7 @@
 import java.util.*;
 
-class Solution {
-    public int removeDuplicates(int[] arr) {
+class removeDuplicates {
+    public int RemoveDuplicates(int[] arr) {
         // Use a LinkedHashSet to store only unique values
         Set<Integer> uniqueElements = new LinkedHashSet<>();
         
@@ -22,11 +22,11 @@ class Solution {
 
     // Main method to test the removeDuplicates function
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        removeDuplicates v = new removeDuplicates();
         
         int[] testArray = {1, 1, 2, 3, 3, 4, 5, 5, 5};
         
-        int newLength = solution.removeDuplicates(testArray);
+        int newLength = v.RemoveDuplicates(testArray);
         
         System.out.println("Number of unique elements: " + newLength);
         System.out.print("Array after removing duplicates: ");
