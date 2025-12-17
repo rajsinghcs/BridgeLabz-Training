@@ -1,16 +1,12 @@
 import java.util.Scanner;
-public class volumeOfacylinder {
+public class volumeOfaCylinder {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Enter radius of the cylinder: ");
-        double radius = scanner.nextDouble();
-
-        System.out.print("Enter height of the cylinder: ");
-        double height = scanner.nextDouble();
-
-        double volume = Math.PI * radius * radius * height;
-
-        System.out.println(volume);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the radius of cylinder:");
+        double r = sc.nextDouble();
+        System.out.println("Enter the height of cylinder:");
+        double h = sc.nextDouble();
+        double volume = Math.PI * r * r * h;
+        System.out.println("Volume of a cylinder is: " + volume);
     }
 }
