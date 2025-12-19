@@ -1,5 +1,5 @@
 import java.util.*;
-public class palindromeNumber {
+public class PalindromeNumber {
     public static void main(String[] args) {
         int num = 121;
         System.out.println(isPalindrome(num));
