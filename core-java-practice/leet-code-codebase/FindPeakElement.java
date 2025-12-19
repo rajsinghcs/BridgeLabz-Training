@@ -21,7 +21,7 @@ public class FindPeakElement {
         for(int i=0; i<n; i++){
             nums[i] = sc.nextInt();
         }
-        findPeakElement solution = new findPeakElement();
+        FindPeakElement solution = new FindPeakElement();
         int result = solution.findPeakElement(nums);
         System.out.println("Index of a peak element: " + result);
         
