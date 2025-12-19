@@ -1,6 +1,6 @@
 import java.util.*;
 
-class removeDuplicates {
+class RemoveDuplicates {
     public int RemoveDuplicates(int[] arr) {
         // Use a LinkedHashSet to store only unique values
         Set<Integer> uniqueElements = new LinkedHashSet<>();
