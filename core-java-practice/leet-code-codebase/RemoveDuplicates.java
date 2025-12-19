@@ -22,7 +22,7 @@ class RemoveDuplicates {
 
     // Main method to test the removeDuplicates function
     public static void main(String[] args) {
-        removeDuplicates v = new removeDuplicates();
+        RemoveDuplicates v = new RemoveDuplicates();
         
         int[] testArray = {1, 1, 2, 3, 3, 4, 5, 5, 5};
         

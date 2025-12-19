@@ -29,7 +29,7 @@ public class GasStation {
         for(int i=0; i<n; i++){
             cost[i] = sc.nextInt();
         }
-        gasStation solution = new gasStation();
+        GasStation solution = new GasStation();
         int result = solution.canCompleteCircuit(gas, cost);
         System.out.println("Starting gas station index: " + result);
         

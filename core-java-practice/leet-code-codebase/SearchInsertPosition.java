@@ -20,7 +20,7 @@ public class SearchInsertPosition {
         return x;
     }
     public static void main(String args[]){
-        searchInsertposition sol = new searchInsertposition();
+        SearchInsertPosition sol = new SearchInsertPosition();
         int[] nums = {1,3,5,6};
         int target = 5;
         System.out.println(sol.searchInsert(nums, target)); 

@@ -20,7 +20,7 @@ public class SortColors {
             nums[i] = sc.nextInt();
         }
         System.out.println("Original array: " + Arrays.toString(nums));
-        sortColors solution = new sortColors();
+        SortColors solution = new SortColors();
         solution.sortColors(nums);
         System.out.println("Sorted array: " + Arrays.toString(nums));
     }
