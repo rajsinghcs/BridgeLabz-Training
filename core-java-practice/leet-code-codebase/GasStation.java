@@ -1,5 +1,5 @@
 import java.util.*;
-public class gasStation {
+public class GasStation {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int current = 0;
         int totalCost = 0;
