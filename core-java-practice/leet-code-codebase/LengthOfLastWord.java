@@ -1,5 +1,5 @@
 import java.util.*;
-public class lengthOfLastWord {
+public class LengthOfLastWord {
     public int lengthOfLastWord(String s) {
         if(s.length() ==1){
             return s.length();
