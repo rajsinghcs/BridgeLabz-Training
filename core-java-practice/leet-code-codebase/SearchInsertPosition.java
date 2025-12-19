@@ -1,5 +1,5 @@
 import java.util.*;
-public class searchInsertposition {
+public class SearchInsertPosition {
     public int searchInsert(int[] nums, int target) {
         int x = nums.length;
 
