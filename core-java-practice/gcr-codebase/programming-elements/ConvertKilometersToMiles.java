@@ -1,5 +1,5 @@
 import java.util.*;
-public class convertKilometersTomiles {
+public class ConvertKilometersToMiles {
     public static void main(String[] args) {    
         Scanner scanner = new Scanner(System.in);
 
