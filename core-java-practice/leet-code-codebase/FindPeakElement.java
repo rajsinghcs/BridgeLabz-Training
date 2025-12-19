@@ -1,5 +1,5 @@
 import java.util.*;
-public class findPeakElement {
+public class FindPeakElement {
     public int findPeakElement(int[] nums) {
 
         int len = nums.length;
