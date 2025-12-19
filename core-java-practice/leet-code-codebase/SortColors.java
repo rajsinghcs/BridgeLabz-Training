@@ -1,5 +1,5 @@
 import java.util.*;
-public class sortColors {
+public class SortColors {
     public void sortColors(int[] nums) {
         int n = nums.length;
         for(int i=0; i<n-1; i++){
