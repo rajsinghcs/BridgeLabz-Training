@@ -1,5 +1,5 @@
 import java.util.*;
-public class ageOfHarry {
+public class AgeOfHarry {
     public static void main(String args[]){
         int currentYear = 2024;
         int birthYear = 2000;
