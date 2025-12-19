@@ -1,5 +1,5 @@
 import java.util.*;
-public class profitAndLoss {
+public class ProfitAndLoss {
     public static void main(String args[]){
         int costPrice = 129;
         int sellingPrice = 191;
