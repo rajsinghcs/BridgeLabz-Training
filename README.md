@@ -32,10 +32,10 @@ core-java-practice/
 
 ## 📌 Folder Details
 
-### 1️⃣ [gcr-codebase](https://github.com/rajsinghcs/BridgeLabz_Training/tree/core-java-practice/core-java-practice/gcr-codebase)
+### 1️⃣ [gcr-codebase](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase).
 Contains fundamental Core Java Problems.
 
-#### 📁 [programming-elements](https://github.com/rajsinghcs/BridgeLabz_Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
+#### 📁 [programming-elements](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
 - Variables
 - Data Types
 - Operators
@@ -49,7 +49,7 @@ Contains fundamental Core Java Problems.
 
 ---
 
-### 2️⃣ [leet-code-codebase](https://github.com/rajsinghcs/BridgeLabz_Training/tree/core-java-practice/core-java-practice/Leet-code-codebase)
+### 2️⃣ [leet-code-codebase](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)
 Contains **17 Java problems** solved for:
 - Logic building
 - Problem-solving practice
@@ -58,12 +58,6 @@ Contains **17 Java problems** solved for:
 Each problem is implemented using **optimized and readable Java code**.
 
 ---
-
-### 3️⃣ [scenario-based](https://github.com/rajsinghcs/BridgeLabz_Training/tree/core-java-practice/core-java-practice/scenario-based)
-Contains **real-world and scenario-based Java problems**, focusing on:
-- Practical implementation
-- Logical thinking
-- Applying Core Java concepts
 
 ---
 
