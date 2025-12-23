@@ -16,12 +16,14 @@ It includes Java fundamentals, problem-solving practice, and scenario-based impl
 ---
 ## 📂 Project Structure
 
-```text
+text
 core-java-practice/
 │
 ├── gcr-codebase/
 │   ├── programming-elements/
-│   └── control-flow/
+│   ├── control-flow/
+│   ├── arrays/
+│   └── strings/
 │
 ├── leet-code-codebase/
 │
@@ -30,39 +32,68 @@ core-java-practice/
 
 ---
 
-## 📌 Folder Details
 
-### 1️⃣ [gcr-codebase](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase).
-Contains fundamental Core Java Problems.
 
-#### 📁 [programming-elements](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
-- Variables
-- Data Types
-- Operators
-- Input / Output
-- Basic Java syntax
+## 📅 Week 1: Core Java Foundations
 
-#### 📁 [control-flow](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)
-- Conditional Statements (if, if-else, switch)
-- Loops (for, while, do-while)
-- Flow control logic
+### 🔹 16-Dec-2025 (Tuesday)
+- Installed and configured **JDK, JVM, and JRE**
+- Verified Java environment and execution setup
+- Solved basic Java practice problems  
+
+🔗 [Programming Elements](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
 
 ---
 
-### 2️⃣ [leet-code-codebase](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)
-Contains **17 Java problems** solved for:
-- Logic building
-- Problem-solving practice
-- Java syntax and optimization
+### 🔹 17-Dec-2025 (Wednesday)
+- Studied **history and features of Java**
+- Practiced **Level-1 programming element problems**
+- Strengthened understanding of Java basics  
 
-Each problem is implemented using **optimized and readable Java code**.
-
----
+🔗 [Programming Elements](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
 
 ---
 
+### 🔹 18-Dec-2025 (Thursday)
+- Learned **variables, data types, and operators**
+- Practiced **input/output operations**
+- Completed **Level-1 and Level-2 problems**  
+
+🔗 [Programming Elements](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
+
+---
+
+### 🔹 19-Dec-2025 (Friday)
+- Studied **control flow statements** (if-else, switch)
+- Implemented programs using **loops**
+- Completed **Level-3 control-flow problems**  
+
+🔗 [Control Flow](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)
+
+---
+
+### 🔹 20-Dec-2025 (Saturday)
+- Learned **array declaration and initialization**
+- Implemented **1D and 2D array programs**
+- Practiced logic building using arrays  
+
+🔗 [Arrays](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)
+
+---
+
+## Week 2: Strings and Problem Solving
+
+### 📅 22-Dec-2025 (Monday)
+- Studied **String class and string manipulation concepts**
+- Solved string-based practice problems
+- **Completed and submitted String assignment**  
+
+🔗 [Strings](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)
+
+---
 ## 🛠️ Technologies Used
 
+- Eclipse
 - Java
 - JDK
 - Git & GitHub
@@ -89,3 +120,4 @@ Capgemini Trainee
 ## 📜 Note
 
 This repository is strictly for **Learning and Practice Purposes** as part of the BridgeLabz Training.
+
