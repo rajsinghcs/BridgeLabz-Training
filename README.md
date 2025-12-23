@@ -17,7 +17,6 @@ It includes Java fundamentals, problem-solving practice, and scenario-based impl
 ## 📂 Project Structure
 
 ```
-text
 core-java-practice/
 │
 ├── gcr-codebase/
