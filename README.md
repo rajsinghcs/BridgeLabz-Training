@@ -78,7 +78,7 @@ core-java-practice/
 - Practiced logic building using arrays  
 
 🔗 [Arrays](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)
-
+🔗 [Scenario-Based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based).
 ---
 
 ## Week 2: Strings and Problem Solving
