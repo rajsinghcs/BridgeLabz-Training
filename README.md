@@ -90,6 +90,15 @@ core-java-practice/
 🔗 [Strings](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)
 
 ---
+
+### 📅 23-Dec-2025 (Tuesday)
+- Studied **SDLC Team Flow**
+- Solved scenario-based practice problems
+- **Completed and submitted Scenario-based assignment**
+ 
+🔗 [Scenario-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)
+---
+
 ## 🛠️ Technologies Used
 
 - Eclipse
