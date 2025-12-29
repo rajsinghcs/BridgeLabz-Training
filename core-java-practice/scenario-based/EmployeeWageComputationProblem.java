@@ -46,7 +46,7 @@ public class EmployeeWageComputationProblem {
     	
 		    // total working hours do not exceed monthly limit
     	    if(workingHours + totalWorkingHours > maxWorkingHours ) {
-    		workingHours = maxWorkingHours - totalWorkingHours ;
+				workingHours = maxWorkingHours - totalWorkingHours ;
     	    }
 
 		    int dailyWage = workingHours * wagePerHour;
