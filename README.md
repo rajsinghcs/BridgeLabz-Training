@@ -20,9 +20,11 @@ It includes Java fundamentals, problem-solving practice, and scenario-based impl
 core-java-practice/
 │
 ├── gcr-codebase/
-│   ├── programming-elements/
-│   ├── control-flow/
 │   ├── arrays/
+│   ├── control-flow/
+│   ├── extras/
+│   ├── methods/
+│   ├── programming-elements/
 │   └── strings/
 │
 ├── leet-code-codebase/
@@ -44,7 +46,7 @@ core-java-practice/
 
 ---
 
-### 🔹 17-Dec-2025 (Wednesday)
+### 📅 17-Dec-2025 (Wednesday)
 - Studied **history and features of Java**
 - Practiced **Level-1 programming element problems**
 - Strengthened understanding of Java basics  
@@ -53,7 +55,7 @@ core-java-practice/
 
 ---
 
-### 🔹 18-Dec-2025 (Thursday)
+### 📅 18-Dec-2025 (Thursday)
 - Learned **variables, data types, and operators**
 - Practiced **input/output operations**
 - Completed **Level-1 and Level-2 problems**  
@@ -62,7 +64,7 @@ core-java-practice/
 
 ---
 
-### 🔹 19-Dec-2025 (Friday)
+### 📅 19-Dec-2025 (Friday)
 - Studied **control flow statements** (if-else, switch)
 - Implemented programs using **loops**
 - Completed **Level-3 control-flow problems**  
@@ -71,7 +73,7 @@ core-java-practice/
 
 ---
 
-### 🔹 20-Dec-2025 (Saturday)
+### 📅 20-Dec-2025 (Saturday)
 - Learned **array declaration and initialization**
 - Implemented **1D and 2D array programs**
 - Practiced logic building using arrays  
@@ -99,6 +101,33 @@ core-java-practice/
 🔗 [Scenario-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)
 ---
 
+### 📅 24-Dec-2025 (Wednesday)
+- Studied **Study The String Based Problem**
+- Solved extra String-based practice problems
+- **Completed and submitted String-based assignment**
+ 
+🔗 [Extra String-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/extras)
+---
+
+### 📅 26-Dec-2025 (Friday)
+- Studied **Study The Java Methods**
+- Solved Method-based practice problems
+- **Completed and submitted Method-based assignment**
+ 
+🔗 [Method-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)
+---
+
+## Week 3: Scenario-based Problems and Built-in functions 
+### 📅 29-Dec-2025 (Monday)
+- Studied **Study The Wages Problem**
+- Solved scenario-based practice problems
+- Solved extra built-in function practice Problems
+- **Completed and submitted Scenario-based assignment and built-in function assignment**
+ 
+🔗 [Scenario-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)
+🔗 [Extras](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/extras)
+---
+
 ## 🛠️ Technologies Used
 
 - Eclipse
@@ -121,7 +150,6 @@ core-java-practice/
 
 **Raj Bahadur Singh**  
 B.Tech Computer Science  
-Capgemini Trainee
 
 ---
 
