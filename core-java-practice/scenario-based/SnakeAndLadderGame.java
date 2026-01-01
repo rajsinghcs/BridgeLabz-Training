@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SnakeLadderGame {
+public class SnakeAndLadderGame {
     public static class Player {
         int position;
         int noOfDiceRoll;
