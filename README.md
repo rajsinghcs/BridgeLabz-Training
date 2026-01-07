@@ -7,35 +7,52 @@ It includes Java fundamentals, problem-solving practice, and scenario-based impl
 
 ## 🌿 Branch Structure
 
-- **main**
+🔶 **main**
   - Default branch (kept empty)
 
-- **core-java-practice**
+🔶 **core-java-practice**
   - Contains all Core Java practice code and problem implementations
+
+🔶 **oops-practice**
+  - Contains all object oriented related problems code and problem implementations
 
 ---
 ## 📂 Project Structure
 
 ```
-core-java-practice/
+BridgeLabz-Training
+│ 
+├──core-java-practice/
+│  ├── gcr-codebase/
+│  │   ├── arrays/
+│  │   ├── control-flow/
+│  │   ├── extras/
+│  │   ├── methods/
+│  │   ├── programming-elements/
+│  │   └── strings/
+│  │
+│  ├── leet-code-codebase/
+│  └── scenario-based/
 │
-├── gcr-codebase/
-│   ├── arrays/
-│   ├── control-flow/
-│   ├── extras/
-│   ├── methods/
-│   ├── programming-elements/
-│   └── strings/
+├──oops-practice/
+│  ├── gcr-codebase/
+│  │   ├── class-and-object/
+│  │   ├── constructor/
+│  │   ├── encapsulation-polymorphism-interface-abstract-classs/
+│  │   ├── inheritance/
+│  │   ├── static-final-keyword/
+│  │   └── uml-diagrams/
+│  │
+│  ├── leet-code-codebase/
+│  └── scenario-based/
 │
-├── leet-code-codebase/
-│
-└── scenario-based/
+
 ```
 
 ---
 
 
-## 📅 Week 1: Core Java Foundations
+## 🔷 📅 Week 1: Core Java Foundations
 
 ### 🔹 16-Dec-2025 (Tuesday)
 - Installed and configured **JDK, JVM, and JRE**
@@ -82,7 +99,8 @@ core-java-practice/
 🔗 [Scenario-Based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based).
 ---
 
-## Week 2: Strings and Problem Solving
+
+## 🔷 Week 2: Strings and Problem Solving
 
 ### 📅 22-Dec-2025 (Monday)
 - Studied **String class and string manipulation concepts**
@@ -99,6 +117,7 @@ core-java-practice/
 - **Completed and submitted Scenario-based assignment**
  
 🔗 [Scenario-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)
+
 ---
 
 ### 📅 24-Dec-2025 (Wednesday)
@@ -107,6 +126,7 @@ core-java-practice/
 - **Completed and submitted String-based assignment**
  
 🔗 [Extra String-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/extras)
+
 ---
 
 ### 📅 26-Dec-2025 (Friday)
@@ -115,9 +135,11 @@ core-java-practice/
 - **Completed and submitted Method-based assignment**
  
 🔗 [Method-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)
+
 ---
 
-## Week 3: Scenario-based Problems and Built-in functions 
+
+## 🔷 Week 3: Scenario-based Problems and Built-in functions, OOPS  
 ### 📅 29-Dec-2025 (Monday)
 - Studied **Study The Wages Problem**
 - Solved scenario-based practice problems
@@ -126,8 +148,77 @@ core-java-practice/
  
 🔗 [Scenario-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)
 🔗 [Extras](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/extras)
+
 ---
 
+### 📅 30-Dec-2025 (Tuesday)
+- Studied **Study The Java OOP Fundamentals and Terminal Commands**
+- Solved Class and Object-based practice problems
+- Solved scenario-based practice problems
+- **Completed and submitted Class and Object-based assignment**
+ 
+🔗 [Class And Object-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/gcr-codebase/class-and-object)
+
+---
+
+### 📅 31-Dec-2025 (Wednesday)
+- Studied **Study The Java Constructors, Instance vs. Class Variables, Access Modifiers Concepts**
+- Solved Java Constructors, Instance vs. Class Variables, Access Modifiers Level 1 Lab Practice
+- **Completed and submitted The Java Constructors, Instance vs. Class Variables, Access Modifiers assignment**
+ 
+🔗 [Constructor-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/gcr-codebase/constructors)
+
+---
+
+### 📅 1-Jan-2026 (Thursday)
+- Studied **Study this, static, final key words and instance of operator**
+- Solved scenario-based practice problems
+- Solved keywords-based practice problems
+- **Completed and submitted scenario-based and keyword-based assignment**
+ 
+🔗 [Keyword-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/gcr-codebase/static-final-keyword)
+
+---
+
+### 📅 2-Jan-2026 (Friday)
+- Studied **Study The Inheritance And Class-Object Diagram**
+- Solved scenario-based practice problems
+- **Completed and submitted scenario-based and draw the Class-Object Diagram assignment**
+ 
+🔗 [UML-Diagram](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/gcr-codebase/uml-diagrams)
+
+---
+
+### 📅 3-Jan-2026 (Saturday)
+- Studied **Study The Encapsulation, Polymorphism, Interface and Abstract Class**
+- Solved inheritance-based practice problems
+- **Completed and submitted inheritance-based assignment**
+ 
+🔗 [Inheritance-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/gcr-codebase/inheritance)
+
+---
+
+
+## 🔷 Week 4: Scenario-based Problems, OOPS and DSA
+### 📅 5-Jan-2026 (Monday)
+- Studied **Study The Encapsulation, Polymorphism, Interface and Abstract Class**
+- Solved scenario-based practice problems on Encapsulation, Polymorphism, Interface and Abstract Class
+- **Completed and submitted scenario-based assignment**
+ 
+🔗 [Encapsulation, Polymorphism, Interface and Abstract Class](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/gcr-codebase/encapsulation-polymorphism-interface-abstract-classs)
+
+---
+
+### 📅 6-Jan-2026 (Tuesday)
+- Studied **Study The Scenario Based Problems**
+- Solved scenario-based practice problems
+- solved leetcode-based practice problems
+- **Completed and submitted scenario-based and leetcode problems**
+ 
+🔗 [Scenario-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/scenario-based)
+🔗 [Leetcode-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/leet-code-codebase)
+
+---
 ## 🛠️ Technologies Used
 
 - Eclipse
