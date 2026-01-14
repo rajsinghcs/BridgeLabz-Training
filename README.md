@@ -52,7 +52,8 @@ BridgeLabz-Training
 ├──dsa-practice/
 │  ├── gcr-codebase/
 │  │   ├── linked-list/
-│  │   
+│  │   ├── stacks-and-queues/
+│  │   └── hashmaps-and-hashfunction/
 │  │
 │  ├── leet-code-codebase/
 │  └── scenario-based/
@@ -274,6 +275,15 @@ BridgeLabz-Training
 - **Completed and submitted oops scenario-based assignment**
  
 🔗 [OOPS Scenario-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/scenario-based)
+
+---
+
+### 📅 14-Jan-2026 (Wednesday)
+- Studied **Study The Stack , Queue, HashMap and Hashing Function**
+- **Completed and submitted Stacks-Queues/HashMap-HashingFunction assignment**
+ 
+🔗 [Stacks-Queues](https://github.com/rajsinghcs/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/hashmaps-and-hashfunction)
+🔗 [HashMap-HashingFunction](https://github.com/rajsinghcs/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/stacks-and-queues)
 
 ---
 
