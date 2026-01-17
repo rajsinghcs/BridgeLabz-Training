@@ -1,0 +1,3 @@
+Java is powerful and platform independent
+StringBuilder and StringBuffer are mutable
+FileReader and InputStreamReader are used for IO
