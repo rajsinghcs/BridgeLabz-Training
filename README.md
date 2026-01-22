@@ -5,7 +5,7 @@ It includes Java fundamentals, problem-solving practice, and scenario-based impl
 
 ---
 
-## 🌿 Branch Structure
+# 🌿 Branch Structure
 
 🔶 **main**
   - Default branch (kept empty)
@@ -19,8 +19,14 @@ It includes Java fundamentals, problem-solving practice, and scenario-based impl
 🔶 **dsa-practice**
   - Contains all data structure code and problem implementations
 
+🔶 **collections-practice**
+  - Contains problems related to the Java Collections Framework
+
+🔶 **review**
+  - Contains problems that were asked in the review
+
 ---
-## 📂 Project Structure
+# 📂 Folder Structure
 
 ```
 BridgeLabz-Training
@@ -51,20 +57,33 @@ BridgeLabz-Training
 │
 ├──dsa-practice/
 │  ├── gcr-codebase/
+│  │   ├── file-reader-and-inputstream-reader/
+│  │   ├── hashmaps-and-hashfunction/
 │  │   ├── linked-list/
+│  │   ├── runtime-analysis-&-big-O-notation/
+│  │   ├── searching-algorithms/
+│  │   ├── sorting-algorithms/
 │  │   ├── stacks-and-queues/
-│  │   └── hashmaps-and-hashfunction/
+│  │   └── stringbuilder-and-stringbuffer/
 │  │
 │  ├── leet-code-codebase/
 │  └── scenario-based/
 │
+├──collections-practice/
+│  ├── gcr-codebase/
+│  │   └── java-generics/
+│  │
+│  ├── leet-code-codebase/
+│  └── scenario-based/
+│
+├──review/
 
 ```
 
 ---
 
 
-## 🔷 📅 Week 1: Core Java Foundations
+# 🔷 📅 Week 1: Core Java Foundations
 
 ### 🔹 16-Dec-2025 (Tuesday)
 - Installed and configured **JDK, JVM, and JRE**
@@ -108,11 +127,12 @@ BridgeLabz-Training
 - Practiced logic building using arrays  
 
 🔗 [Arrays](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)
-🔗 [Scenario-Based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based).
+🔗 [Scenario-Based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)
+
 ---
 
 
-## 🔷 Week 2: Strings and Problem Solving
+# 🔷 Week 2: Strings and Problem Solving
 
 ### 📅 22-Dec-2025 (Monday)
 - Studied **String class and string manipulation concepts**
@@ -150,8 +170,7 @@ BridgeLabz-Training
 
 ---
 
-
-## 🔷 Week 3: Scenario-based Problems and Built-in functions, OOPS  
+# 🔷 Week 3: Scenario-based Problems and Built-in functions, OOPS  
 ### 📅 29-Dec-2025 (Monday)
 - Studied **Study The Wages Problem**
 - Solved scenario-based practice problems
@@ -210,8 +229,7 @@ BridgeLabz-Training
 
 ---
 
-
-## 🔷 Week 4: Scenario-based Problems, OOPS and DSA
+# 🔷 Week 4: Scenario-based Problems, OOPS and DSA
 ### 📅 5-Jan-2026 (Monday)
 - Studied **Study The Encapsulation, Polymorphism, Interface and Abstract Class**
 - Solved scenario-based practice problems on Encapsulation, Polymorphism, Interface and Abstract Class
@@ -259,7 +277,8 @@ BridgeLabz-Training
 
 ---
 
-## 🔷 Week 4: Scenario-based Problems, OOPS and DSA
+# 🔷 Week 5: Scenario-based Problems, OOPS and DSA
+
 ### 📅 12-Jan-2026 (Monday)
 - Studied **Study The Scenario Based OOPs Problems**
 - Solved oops scenario-based practice problems
@@ -287,6 +306,60 @@ BridgeLabz-Training
 
 ---
 
+### 📅 15-Jan-2026 (Thursday)
+- Studied **Study The Address Book Problem and Searching Algorithms**
+- Solved oops sorting-based practice problems
+- **Completed and submitted sorting-based assignment**
+ 
+🔗 [Sorting Algorithms](https://github.com/rajsinghcs/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/sorting-algorithms)
+
+---
+
+### 📅 16-Jan-2026 (Friday)
+- Studied **Study The Runtime analysis and Git commands**
+- Solved oops searching based practice problems
+- **Completed and submitted Linear and Binary search-based assignment**
+ 
+🔗 [Searching Algorithms](https://github.com/rajsinghcs/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/searching-algorithms)
+
+---
+
+### 📅 17-Jan-2026 (Saturday)
+- Studied **Study The Scenario-based problem**
+- Solved oops scenario-based practice problem
+- **Completed and submitted oops and algroithm's runtime analysis based assignment**
+ 
+🔗 [Runtime Analysis](https://github.com/rajsinghcs/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/runtime-analysis-%26-big-O-notation)
+
+---
+
+# 🔷 📅 Week 6: DSA, Scenario-Based, Collections Framework , Exceptions
+### 📅 19-Jan-2026 (Monday)
+- Studied **Study The Generics**
+- Solved dsa scenario-based practice problems
+- **Completed and submitted dsa scenario-based assignment**
+ 
+🔗 [DSA Scenario-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
+
+---
+
+### 📅 20-Jan-2026 (Tuesday)
+- Studied **Study The Collections Framework**
+- Solved dsa scenario-based practice problems
+- **Completed and submitted dsa scenario-based assignment**
+ 
+🔗 [DSA Scenario-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
+
+---
+
+### 📅 21-Jan-2026 (Wednesday)
+- Studied **Study The List , Queue, Map and Set Interface**
+- Solved scenario-based practice problems
+- **Completed and submitted the generics assignment**
+ 
+🔗 [Java-generics](https://github.com/rajsinghcs/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/java-generics)
+
+---
 
 ## 🛠️ Technologies Used
 
