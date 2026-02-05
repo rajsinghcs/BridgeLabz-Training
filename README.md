@@ -22,6 +22,12 @@ It includes Java fundamentals, problem-solving practice, and scenario-based impl
 🔶 **collections-practice**
   - Contains problems related to the Java Collections Framework
 
+🔶 **io-programming-practice**
+  - Java I/O and file handling programs including streams, CSV processing, serialization, and input handling using Scanner and BufferedReader.
+
+🔶 **java8-Features-practice**
+  - Java 8 feature implementations covering lambdas, functional interfaces.
+
 🔶 **review**
   - Contains problems that were asked in the review
 
@@ -43,6 +49,7 @@ BridgeLabz-Training
 │  ├── leet-code-codebase/
 │  └── scenario-based/
 │
+│
 ├──oops-practice/
 │  ├── gcr-codebase/
 │  │   ├── class-and-object/
@@ -54,6 +61,7 @@ BridgeLabz-Training
 │  │
 │  ├── leet-code-codebase/
 │  └── scenario-based/
+│
 │
 ├──dsa-practice/
 │  ├── gcr-codebase/
@@ -69,12 +77,42 @@ BridgeLabz-Training
 │  ├── leet-code-codebase/
 │  └── scenario-based/
 │
+│
 ├──collections-practice/
 │  ├── gcr-codebase/
-│  │   └── java-generics/
+│  │   ├── annoatations/
+│  │   ├── exception-handling/
+│  │   ├── java-generics/
+│  │   ├── java-streams/
+│  │   ├── junit/
+│  │   ├── list-interface/
+│  │   ├── map-interface/
+│  │   ├── queue-interface/
+│  │   ├── set-interface/
+│  │   ├── reflection/
+│  │   └── regex/
 │  │
 │  ├── leet-code-codebase/
 │  └── scenario-based/
+│
+│
+├──io-programming-practice/
+│  ├── gcr-codebase/
+│  │   ├── csv-data-handling/
+│  │   ├── json/
+│  │
+│  ├── leet-code-codebase/
+│  └── scenario-based/
+│
+│
+├──java8-features-practice/
+│  ├── gcr-codebase/
+│  │   ├── functional-interfaces
+│  │   ├── lambda-expressions
+│  │
+│  ├── leet-code-codebase/
+│  └── scenario-based/
+│
 │
 ├──review/
 
@@ -333,7 +371,8 @@ BridgeLabz-Training
 
 ---
 
-# 🔷 📅 Week 6: DSA, Scenario-Based, Collections Framework , Exceptions
+# 🔷 📅 Week 6: DSA, Scenario-Based Problems, Collections Framework , Exceptions
+
 ### 📅 19-Jan-2026 (Monday)
 - Studied **Study The Generics**
 - Solved dsa scenario-based practice problems
@@ -358,6 +397,108 @@ BridgeLabz-Training
 - **Completed and submitted the generics assignment**
  
 🔗 [Java-generics](https://github.com/rajsinghcs/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/java-generics)
+
+---
+
+### 📅 22-Jan-2026 (Thursday)
+- Studied **Study The exceptions, List , Queue, Map and Set Interface**
+- Solved scenario-based practice problems
+- **Completed and submitted the List, Queue, Map and Set assignment**
+ 
+🔗 [List-Interface](https://github.com/rajsinghcs/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/list-interface)
+🔗 [Queue-Interface](https://github.com/rajsinghcs/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/queue-interface)
+🔗 [Map-Interface](https://github.com/rajsinghcs/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/map-interface)
+🔗 [Set-Interface](https://github.com/rajsinghcs/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/set-interface)
+
+---
+
+
+### 📅 23-Jan-2026 (Friday)
+- Studied **Study The Exception Handling and Java Streams , Scenario-based problem**
+- Solved scenario-based practice problems
+- **Completed and submitted the scenario-based assignment**
+ 
+🔗 [Scenario-Based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
+
+---
+
+### 📅 24-Jan-2026 (Saturday)
+- Studied **Study The Exception Handling and Java Streams**
+- Solved scenario-based practice problems
+- **Completed and submitted the Exception Handling and Java Streams assignment**
+ 
+🔗 [Exception-Handling](https://github.com/rajsinghcs/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/exception-handling)
+🔗 [Java-Streams](https://github.com/rajsinghcs/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/java-streams)
+
+---
+
+# 🔷 📅 Week 7: Scenario-Based Problems, Annotations, Reflections, Regex and JUnit
+### 📅 27-Jan-2026 (Tuesday)
+- Studied **Study The Scenario-Based Problems**
+- Solved scenario-based practice problems
+- **Completed and submitted the Scenario-Based assignment**
+ 
+🔗 [Lexical-Twist Problem](https://github.com/rajsinghcs/BridgeLabz-Training/blob/collections-practice/collections-practice/scenario-based/LexicalTwistProblem.java)
+
+---
+### 📅 28-Jan-2026 (Wednesday)
+- Studied **Study The Regex and JUnit and Scenario-Based Problems**
+- Solved scenario-based practice problems
+- **Completed and submitted the scenario-based assignment**
+ 
+🔗 [Scenario-Based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based)
+
+---
+
+### 📅 29-Jan-2026 (Thursday)
+- Studied **Study The Annotations, Reflections, Regex and JUnit**
+- Study scenario-based practice problems
+- **Completed and submitted the scenario-based assignment**
+ 
+🔗 [Scenario-Based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based)
+
+---
+
+
+### 📅 30-Jan-2026 (Friday)
+- Studied **Study The Regex, JUnit, Annotations, Reflections**
+- Solved scenario-based practice problems
+- **Completed and submitted the Regex and JUnit assignment**
+ 
+🔗 [Java-Regex](https://github.com/rajsinghcs/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/regex)
+🔗 [JUnit](https://github.com/rajsinghcs/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/junit)
+
+---
+
+# 🔷 📅 Week 8: Scenario-Based Problems, Annotations and Reflections and Java-8 Features
+
+### 📅 02-Feb-2026 (Monday)
+- Studied **Study The CSV Data, Annotations and Reflections**
+- Solved scenario-based practice problems
+- **Completed and submitted the annotations and reflections assignment**
+ 
+🔗 [Annotations](https://github.com/rajsinghcs/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/annotations)
+🔗 [Reflections](https://github.com/rajsinghcs/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/reflection)
+
+---
+
+### 📅 03-Feb-2026 (Tuesday)
+- Studied **Study The JSON, CSV Data handling**
+- Solved scenario-based practice problems
+- **Completed and submitted the CSV-data assignment**
+ 
+🔗 [CSV-Data-Handling](https://github.com/rajsinghcs/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/csv-data-handling)
+
+---
+
+### 📅 04-Feb-2026 (Wednesday)
+- Studied **Study The lambda expression, functional interface**
+- Solved scenario-based practice problems
+- **Completed and submitted the lambda expression and JSON Data assignment**
+ 
+🔗 [Lambda-Expression](https://github.com/rajsinghcs/BridgeLabz-Training/tree/java8-features-practice/java8-features-practice/gcr-codebase/lambda-expressions)
+🔗 [JSON-Data](https://github.com/rajsinghcs/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/json)
+
 
 ---
 
