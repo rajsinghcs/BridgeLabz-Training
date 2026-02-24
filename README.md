@@ -23,10 +23,19 @@ It includes Java fundamentals, problem-solving practice, and scenario-based impl
   - Contains problems related to the Java Collections Framework
 
 🔶 **io-programming-practice**
-  - Java I/O and file handling programs including streams, CSV processing, serialization, and input handling using Scanner and BufferedReader.
+  - Java I/O and file handling programs including streams, CSV processing, and input handling using Scanner and BufferedReader.
 
 🔶 **java8-Features-practice**
   - Java 8 feature implementations covering lambdas, functional interfaces.
+
+🔶 **jdbc-and-dbms-practice**
+  - Contains JDBC-based database connectivity programs implementing CRUD operations and core DBMS integration concepts.
+
+🔶 **multi-threading-practice**
+  - Includes concurrent programming implementations covering threads, synchronization, and multithreading concepts in Java.
+
+🔶 **solution-designing-practice**
+  - Focuses on structured problem-solving through modular system design and real-world application skeleton implementations.
 
 🔶 **review**
   - Contains problems that were asked in the review
@@ -112,6 +121,17 @@ BridgeLabz-Training
 │  │
 │  ├── leet-code-codebase/
 │  └── scenario-based/
+│
+│
+├──jdbc-and-dbms-practice/
+│  ├── gcr-codebase/
+│
+├──solution-designing-practice/
+│  ├── gcr-codebase/
+│
+│
+├──multi-threading-practice/
+│  ├── gcr-codebase/
 │
 │
 ├──review/
@@ -499,6 +519,85 @@ BridgeLabz-Training
 🔗 [Lambda-Expression](https://github.com/rajsinghcs/BridgeLabz-Training/tree/java8-features-practice/java8-features-practice/gcr-codebase/lambda-expressions)
 🔗 [JSON-Data](https://github.com/rajsinghcs/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/json)
 
+
+---
+
+### 📅 05-Feb-2026 (Thursday)
+- Studied **Study The Stream-Api**
+- Solved scenario-based practice problems
+- **Completed and submitted the collectors assignment**
+ 
+🔗 [Collectors](https://github.com/rajsinghcs/BridgeLabz-Training/tree/java8-features-practice/java8-features-practice/gcr-codebase/collectors)
+
+---
+### 📅 06-Feb-2026 (Friday)
+- Studied **Study The Multi-Threading**
+- Solved scenario-based practice problems
+- **Completed and submitted assignment**
+ 
+🔗 [Scenario-Based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based)
+
+---
+### 📅 07-Feb-2026 (Saturday)
+- Studied **Study The Multi-Threading**
+- Solved scenario-based practice problems
+- **Completed and submitted the multi-threading assignment**
+ 
+🔗 [Multi-threading](https://github.com/rajsinghcs/BridgeLabz-Training/tree/multi-threading-practice/multi-threading/gcr-codebase/MultiThreading)
+
+---
+
+
+# 🔷 📅 Week 9: Scenario-Based Problems, DBMS, Stream-api, Multi-Threading
+
+### 📅 09-Feb-2026 (Monday)
+- Studied **Study The DBMS concepts**
+- Solved scenario-based practice problems
+- **Completed and submitted the assignment**
+ 
+🔗 [JDBC-DBMS](https://github.com/rajsinghcs/BridgeLabz-Training/tree/jdbc-and-dbms-practice/jdbc-and-dbms-practice/gcr-codebase/HealthClinicApp)
+
+---
+### 📅 11-Feb-2026 (Wednesday)
+- Studied **Revise The Oops concepts**
+- Solved scenario-based practice problems
+- **Completed and submitted assignment**
+ 
+🔗 [Scenario-Based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/BankAccountTesting)
+
+---
+### 📅 13-Feb-2026 (Friday)
+- Studied **Study The Multi-Threading**
+- Solved scenario-based practice problems
+- **Completed and submitted assignment**
+ 
+🔗 [Scenario-Based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based)
+
+---
+### 📅 14-Feb-2026 (Saturday)
+- Studied **Study The Stream-Api**
+- Solved scenario-based practice problems
+- **Completed and submitted assignment**
+ 
+🔗 [Scenario-Based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based)
+
+---
+
+# 🔷 📅 Week 10: Scenario-Based Problems, Stream-Api
+
+### 📅 16-Feb-2026 ((Monday)
+- Studied **Study The Stream Api**
+- Solved scenario-based stream-api problems
+- **Completed and submitted the Stream-Api assignment**
+ 
+🔗 [Stream-API](https://github.com/rajsinghcs/BridgeLabz-Training/tree/java8-features-practice/java8-features-practice/gcr-codebase/stream-api)
+
+---
+### 📅 17-Feb-2026 (Tuesday)
+- Solved scenario-based practice problems
+- **Completed and submitted assignment**
+ 
+🔗 [Scenario-Based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based)
 
 ---
 
