@@ -235,7 +235,7 @@ BridgeLabz-Training
 - Solved extra built-in function practice Problems
 - **Completed and submitted Scenario-based assignment and built-in function assignment**
  
-🔗 [Scenario-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)
+🔗 [Scenario-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
 🔗 [Extras](https://github.com/rajsinghcs/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/extras)
 
 ---
@@ -246,7 +246,7 @@ BridgeLabz-Training
 - Solved scenario-based practice problems
 - **Completed and submitted Class and Object-based assignment**
  
-🔗 [Class And Object-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/gcr-codebase/class-and-object)
+🔗 [Class And Object-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/class-and-object)
 
 ---
 
@@ -255,7 +255,7 @@ BridgeLabz-Training
 - Solved Java Constructors, Instance vs. Class Variables, Access Modifiers Level 1 Lab Practice
 - **Completed and submitted The Java Constructors, Instance vs. Class Variables, Access Modifiers assignment**
  
-🔗 [Constructor-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/gcr-codebase/constructors)
+🔗 [Constructor-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/constructors)
 
 ---
 
@@ -265,7 +265,7 @@ BridgeLabz-Training
 - Solved keywords-based practice problems
 - **Completed and submitted scenario-based and keyword-based assignment**
  
-🔗 [Keyword-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/gcr-codebase/static-final-keyword)
+🔗 [Keyword-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/static-final-keyword)
 
 ---
 
@@ -274,7 +274,7 @@ BridgeLabz-Training
 - Solved scenario-based practice problems
 - **Completed and submitted scenario-based and draw the Class-Object Diagram assignment**
  
-🔗 [UML-Diagram](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/gcr-codebase/uml-diagrams)
+🔗 [UML-Diagram](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/uml-diagrams)
 
 ---
 
@@ -283,7 +283,7 @@ BridgeLabz-Training
 - Solved inheritance-based practice problems
 - **Completed and submitted inheritance-based assignment**
  
-🔗 [Inheritance-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/gcr-codebase/inheritance)
+🔗 [Inheritance-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/inheritance)
 
 ---
 
@@ -293,7 +293,7 @@ BridgeLabz-Training
 - Solved scenario-based practice problems on Encapsulation, Polymorphism, Interface and Abstract Class
 - **Completed and submitted scenario-based assignment**
  
-🔗 [Encapsulation, Polymorphism, Interface and Abstract Class](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/gcr-codebase/encapsulation-polymorphism-interface-abstract-classs)
+🔗 [Encapsulation, Polymorphism, Interface and Abstract Class](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/encapsulation-polymorphism-interface-abstract-classs)
 
 ---
 
@@ -303,8 +303,8 @@ BridgeLabz-Training
 - solved leetcode-based practice problems
 - **Completed and submitted scenario-based and leetcode problems**
  
-🔗 [Scenario-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/scenario-based)
-🔗 [Leetcode-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/leet-code-codebase)
+🔗 [Scenario-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+🔗 [Leetcode-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)
 
 ---
 
@@ -313,7 +313,7 @@ BridgeLabz-Training
 - Solved linkedlist leetcode practice problems
 - **Completed and submitted leetcode practice problem**
  
-🔗 [LinkedList-Leetcode-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/leet-code-codebase)
+🔗 [LinkedList-Leetcode-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)
 
 ---
 
@@ -331,7 +331,7 @@ BridgeLabz-Training
 - Solved scenario-based practice problems
 - **Completed and submitted scenario-based assignment**
  
-🔗 [OOPS Scenario-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/scenario-based)
+🔗 [OOPS Scenario-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
 
 ---
 
@@ -342,7 +342,7 @@ BridgeLabz-Training
 - Solved oops scenario-based practice problems
 - **Completed oops scenario-based assignment**
  
-🔗 [OOPS scenario-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/scenario-based))
+🔗 [OOPS scenario-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
 
 ---
 
@@ -351,7 +351,7 @@ BridgeLabz-Training
 - Solved oops scenario-based practice problems
 - **Completed and submitted oops scenario-based assignment**
  
-🔗 [OOPS Scenario-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/scenario-based)
+🔗 [OOPS Scenario-based](https://github.com/rajsinghcs/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
 
 ---
 
