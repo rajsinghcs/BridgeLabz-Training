@@ -5,7 +5,7 @@ class InvalidTimeFormatException extends Exception {
     }
 }
 
-public class MovieScheduleManager {
+public class MovieScheduleManager1 {
 
     List<String> titles = new ArrayList<>();
     List<String> showTimes = new ArrayList<>();
@@ -68,7 +68,7 @@ public class MovieScheduleManager {
 
     
     public static void main(String[] args) {
-        MovieScheduleManager manager = new MovieScheduleManager();
+        MovieScheduleManager1 manager = new MovieScheduleManager1();
 
         try {
             manager.addMovie("Krish", "18:30");
