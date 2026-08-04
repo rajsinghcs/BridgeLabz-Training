@@ -118,19 +118,127 @@ Practiced the following table operations:
 - Modify Column
 - Add Column
 
-Example:
+
+
+
+
+
+
+# 📅 Day 2 — Database Programming
+
+## 📌 Session Overview
+
+Day 2 focused on **ER Diagrams, Database Indexing, and Normalization** with practical implementation using a **Health Clinic Database**.
+
+---
+
+## 🔗 1. Entity Relationship (ER) Diagram
+
+### Concepts Covered
+
+* Entities & Attributes
+* Relationships & Cardinality
+* Primary Key & Foreign Key
+* Weak Entity
+* ER Diagram Design
+
+### Relationship Types
+
+* **1:1** — One-to-One
+* **1:N** — One-to-Many
+* **M:N** — Many-to-Many
+
+### Learning Outcome
+
+Learned to design ER diagrams and model relationships between database entities.
+
+---
+
+## ⚡ 2. Database Indexing
+
+### Concepts Covered
+
+* Index and its purpose
+* Clustered & Non-Clustered Index
+* Composite Index
+* Covering Index
+* `EXPLAIN`
+* Advantages & disadvantages of indexing
+
+### Example
 
 ```sql
-create database Health_Clinic_App;
+CREATE INDEX idx_doctor_date
+ON appointments(doctor_id, appointment_date);
 
-use Health_Clinic_App;
+EXPLAIN
+SELECT *
+FROM appointments
+WHERE doctor_id = 1
+  AND appointment_date = '2026-08-06 11:30:00';
+```
 
-create table Patients (
-    PatientID int auto_increment primary key,
-    FullName varchar(60) not null,
-    DOB date,
-    Gender enum('Male','Female','Other'),
-    MobileNo varchar(15) unique,
-    Email varchar(80),
-    RegistrationDate timestamp default current_timestamp
-);
+### Learning Outcome
+
+Learned how indexes improve **data retrieval and query performance**, and how excessive indexing can affect `INSERT`, `UPDATE`, and `DELETE`.
+
+---
+
+## 🗂️ 3. Database Normalization
+
+Studied normalization to **reduce data redundancy and improve data consistency**.
+
+| Normal Form | Main Concept                         |
+| ----------- | ------------------------------------ |
+| **1NF**     | Atomic values, no repeating groups   |
+| **2NF**     | 1NF + No partial dependency          |
+| **3NF**     | 2NF + No transitive dependency       |
+| **BCNF**    | Every determinant is a candidate key |
+
+### Learning Outcome
+
+Learned how to design structured and normalized relational tables.
+
+---
+
+## 🏥 Practical Implementation
+
+Designed a **Health Clinic Database** using:
+
+```text
+patients
+patient_phones
+doctors
+specializations
+doctor_specializations
+appointments
+billing
+visit_history
+rooms
+doctor_room
+```
+
+Implemented:
+
+* Primary & Foreign Keys
+* 1:1, 1:N & M:N relationships
+* Junction tables
+* Composite & Covering indexes
+* Database normalization
+* Query performance analysis using `EXPLAIN`
+
+---
+
+## 🛠️ Skills Gained
+
+* ER Diagram & Database Modeling
+* Cardinality
+* Database Normalization
+* 1NF, 2NF, 3NF & BCNF
+* Database Indexing
+* Query Optimization
+* SQL `EXPLAIN`
+
+## 📌 Key Takeaway
+
+**Good database design = Less Redundancy + Data Consistency + Proper Relationships + Better Performance**
