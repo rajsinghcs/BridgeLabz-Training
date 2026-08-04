@@ -119,6 +119,10 @@ Practiced the following table operations:
 - Add Column
 
 
+---
+
+
+
 
 
 
