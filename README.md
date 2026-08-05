@@ -246,3 +246,78 @@ Implemented:
 ## 📌 Key Takeaway
 
 **Good database design = Less Redundancy + Data Consistency + Proper Relationships + Better Performance**
+
+---
+# Day 3 – SQL Advanced Concepts
+
+## Topics Covered
+
+### 1. Joins
+
+Learned to retrieve data from multiple tables using different join operations.
+
+**Types:**
+
+* INNER JOIN
+* LEFT JOIN
+* RIGHT JOIN
+* FULL OUTER JOIN (Concept)
+* CROSS JOIN
+* SELF JOIN
+
+**Practiced:**
+
+* Multiple-table joins
+* Matching and non-matching records
+* Table aliases
+
+### 2. Stored Procedures
+
+Learned to create reusable SQL programs for executing multiple statements.
+
+**Topics:**
+
+* Creating & calling procedures
+* IN / OUT / INOUT parameters
+* Variables and conditional logic
+
+**Benefits:**
+
+* Code reusability
+* Better performance
+* Improved security
+* Reduced network traffic
+* Easy maintenance
+
+### 3. Triggers
+
+Learned to automatically execute actions when database events occur.
+
+**Types:**
+
+* BEFORE INSERT
+* AFTER INSERT
+* BEFORE UPDATE
+* AFTER UPDATE
+* BEFORE DELETE
+* AFTER DELETE
+
+**Practiced:**
+
+* Data validation
+* Audit logging
+* Data consistency
+
+## Key Learning Outcomes
+
+* Understood different SQL joins and their use cases.
+* Implemented stored procedures for reusable operations.
+* Used triggers for automated database actions.
+* Gained practical knowledge of advanced SQL concepts.
+
+## Technologies Used
+
+* MySQL
+* SQL
+* MySQL Workbench
+
