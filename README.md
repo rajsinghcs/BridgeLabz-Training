@@ -321,3 +321,44 @@ Learned to automatically execute actions when database events occur.
 * SQL
 * MySQL Workbench
 
+
+---
+
+# 📅 Day 4 — CRUD Operations in Health Clinic App
+
+## 📌 Session Overview
+
+Today's focus was on implementing and testing the core CRUD functionality of the Health Clinic Application using JDBC and MySQL. I verified the flow of data between different modules and ensured that related records were created correctly.
+
+---
+
+## ✅ Tasks Completed
+
+- Implemented and tested **Patient Management** operations.
+- Managed **Doctor** and **Specialization** records.
+- Scheduled appointments by connecting patients with doctors.
+- Processed completed appointments and verified automatic record creation.
+- Verified billing details and updated payment status.
+- Tested the complete data flow between application layers.
+
+---
+
+## 📚 What I Learned
+
+- Understood how requests travel through the **Presentation Layer**, **Service Layer**, **DAO Layer**, and finally the **Database**.
+- Learned how the **DAO Pattern** separates business logic from database operations, making the application easier to maintain.
+- Explored **HikariCP Connection Pooling** and understood how reusing database connections improves performance.
+- Practiced **Database Transactions**, ensuring multiple related database operations either complete successfully together or roll back completely.
+- Gained practical experience using **Foreign Key Constraints** to maintain data consistency between related tables.
+- Improved understanding of how different modules interact to build a complete clinic management workflow.
+
+---
+
+## 🎯 Next Steps
+
+- Implement and verify remaining Delete operations.
+- Test Visit History retrieval and reporting.
+- Add input validation and exception handling.
+- Refactor repeated JDBC code for better maintainability.
+- Push the completed Day 4 work to GitHub.
+
