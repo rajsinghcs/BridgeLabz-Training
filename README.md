@@ -362,3 +362,119 @@ Today's focus was on implementing and testing the core CRUD functionality of the
 - Refactor repeated JDBC code for better maintainability.
 - Push the completed Day 4 work to GitHub.
 
+---
+
+# 📅 Day 5 — Java Servlet Fundamentals
+
+## 📌 Session Overview
+
+Day 5 focused on Java Servlet fundamentals, Apache Tomcat, Maven Web Applications, HTTP request handling, and HTML form integration.
+
+## 📚 Topics Covered
+
+* Java Servlet Introduction and Architecture
+* Servlet Lifecycle
+* Apache Tomcat Configuration
+* Maven Web Application
+* `pom.xml` and WAR Packaging
+* Web Container
+* `HttpServlet`
+* `HttpServletRequest` and `HttpServletResponse`
+* `PrintWriter`
+* `@WebServlet` and URL Mapping
+* `doGet()` and `doPost()`
+* GET vs POST
+* `request.getParameter()`
+* HTML Form Integration
+* JSP and Servlet Integration
+
+## 💻 Practical Work
+
+### Greeting Application
+
+* Created a Maven-based Servlet project.
+* Configured Apache Tomcat 10.
+* Created an HTML form.
+* Connected the HTML form with a Servlet.
+* Implemented GET and POST request handling.
+* Processed user input using `request.getParameter()`.
+* Generated dynamic responses using `PrintWriter`.
+
+## 🔧 Troubleshooting
+
+* Fixed `JAVA_HOME` configuration issues.
+* Resolved Tomcat deployment problems.
+* Fixed HTTP 404 and 405 errors.
+* Rebuilt and redeployed the Maven WAR application.
+
+## 🛠 Technologies Used
+
+* Java 21
+* Jakarta Servlet API 6
+* Apache Tomcat 10
+* Maven
+* HTML
+* IntelliJ IDEA
+
+## 🎯 Key Learnings
+
+* Servlet Request-Response Cycle
+* Servlet Lifecycle
+* Web Container
+* URL Mapping
+* GET vs POST
+* Form Handling
+* Maven WAR Packaging
+* Tomcat Deployment
+
+
+
+---
+
+
+# 📅 Day 6 — Java Servlet
+
+## 📌 Session Overview
+
+Day 6 focused on creating Servlets using Maven and implementing a login application with name and password validation.
+
+## 📚 Topics Covered
+
+* Creating a Servlet Project using Maven
+* Apache Tomcat Configuration
+* Servlet API Dependency
+* First Servlet
+* Servlet URL Mapping
+* Web Container Architecture
+* Web Application Directory Structure
+* HTML, JSP and Servlet Integration
+* HTTP Request and Response
+* Servlet Lifecycle
+* `doGet()` and `doPost()`
+* `HttpServletRequest`
+* `HttpServletResponse`
+* `@WebServlet`
+
+
+## 🛠 Technologies Used
+
+* Java
+* Jakarta Servlet API
+* Maven
+* Apache Tomcat
+* HTML
+* JSP
+* IntelliJ IDEA
+
+## 🎯 Key Learnings
+
+* Servlet Lifecycle
+* `HttpServlet`
+* `doGet()` and `doPost()`
+* Request and Response Handling
+* URL Mapping
+* Web Container
+* Maven Dependency Management
+* HTML/JSP Integration
+* Servlet-based Validation
+
