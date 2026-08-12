@@ -478,3 +478,202 @@ Day 6 focused on creating Servlets using Maven and implementing a login applicat
 * HTML/JSP Integration
 * Servlet-based Validation
 
+
+
+---
+
+
+# Day 7 - Spring REST API & Request Handling
+
+## Start Developing ContactApp
+
+### Topics Covered
+
+- Spring REST API
+- RESTful API Endpoints
+- HTTP Methods
+- Request Handling in Spring Boot
+- `@RestController`
+- `@RequestMapping`
+- `@GetMapping`
+- `@PostMapping`
+- `@PutMapping`
+- `@DeleteMapping`
+- `@RequestBody`
+- `@PathVariable`
+- `@RequestParam`
+- Response Handling
+- H2 In-Memory Database Basics
+- Distributed Architecture Overview
+
+---
+
+## 1. Spring REST API
+
+A **REST API** allows different applications to communicate with each other over **HTTP**.
+
+Spring Boot provides annotations that make it easy to create RESTful APIs.
+
+### Basic Flow
+
+    Client → Controller → Service → Repository → Database
+
+For ContactApp:
+
+    Client
+      ↓
+    REST Controller
+      ↓
+    Service
+      ↓
+    Repository
+      ↓
+    Database
+
+---
+
+## 2. RESTful API
+
+**REST (Representational State Transfer)** is an architectural style used for designing web APIs.
+
+A RESTful API exposes resources through URLs and uses HTTP methods to perform operations on those resources.
+
+Example ContactApp resource:
+
+    /contacts
+
+### REST API Endpoints
+
+| HTTP Method | Endpoint | Purpose |
+|---|---|---|
+| GET | `/contacts` | Retrieve all contacts |
+| GET | `/contacts/{id}` | Retrieve a specific contact |
+| POST | `/contacts` | Create a new contact |
+| PUT | `/contacts/{id}` | Update an existing contact |
+| DELETE | `/contacts/{id}` | Delete a contact |
+
+---
+
+## 3. HTTP Methods
+
+| HTTP Method | Purpose |
+|---|---|
+| GET | Retrieve data |
+| POST | Create new data |
+| PUT | Update an existing resource |
+| PATCH | Partially update a resource |
+| DELETE | Delete a resource |
+
+---
+
+## 4. Request Handling in Spring Boot
+
+Spring Boot provides annotations to map HTTP requests to controller methods.
+
+### `@RestController`
+
+Used to define a REST controller that handles HTTP requests and returns data directly, usually in JSON format.
+
+### `@RequestMapping`
+
+Used to define the base URL for a controller or endpoint.
+
+### HTTP Mapping Annotations
+
+| Annotation | HTTP Method | Purpose |
+|---|---|---|
+| `@GetMapping` | GET | Retrieve data |
+| `@PostMapping` | POST | Create data |
+| `@PutMapping` | PUT | Update data |
+| `@DeleteMapping` | DELETE | Delete data |
+
+---
+
+## 5. Request Data Handling
+
+Spring Boot provides annotations to extract data from different parts of an HTTP request.
+
+### `@RequestBody`
+
+Used to read data from the request body, usually in JSON format.
+
+    JSON Request → Java Object
+
+Commonly used with `POST` and `PUT` requests.
+
+### `@PathVariable`
+
+Used to extract a value from the URL path.
+
+Example:
+
+    /contacts/10
+
+Here, `10` can represent the contact ID.
+
+### `@RequestParam`
+
+Used to extract values from query parameters.
+
+Example:
+
+    /contacts/search?name=Rahul
+
+Here, `name` is a request parameter.
+
+---
+
+## 6. Response Handling
+
+Spring Boot can return Java objects from controller methods, which are automatically converted into JSON.
+
+`ResponseEntity` can be used to control:
+
+- HTTP status code
+- Response body
+- HTTP headers
+
+### Common HTTP Status Codes
+
+| Status Code | Meaning |
+|---|---|
+| 200 OK | Request successful |
+| 201 Created | Resource successfully created |
+| 204 No Content | Request successful with no response body |
+| 400 Bad Request | Invalid request |
+| 404 Not Found | Resource not found |
+| 500 Internal Server Error | Internal server error |
+
+---
+
+## 7. H2 In-Memory Database
+
+**H2** is a lightweight relational database commonly used for development and testing.
+
+An **in-memory database** stores data temporarily in memory while the application is running.
+
+### Advantages
+
+- Easy to configure
+- Fast
+- No separate database installation required
+- Useful for testing
+- Data is temporary
+
+
+---
+
+## Key Takeaways
+
+- `@RestController` → Defines a REST controller
+- `@RequestMapping` → Defines a base URL
+- `@GetMapping` → Handles GET requests
+- `@PostMapping` → Handles POST requests
+- `@PutMapping` → Handles PUT requests
+- `@DeleteMapping` → Handles DELETE requests
+- `@RequestBody` → Reads data from the request body
+- `@PathVariable` → Reads values from the URL path
+- `@RequestParam` → Reads query parameters
+- `ResponseEntity` → Controls HTTP responses
+- H2 → Lightweight in-memory database
+
