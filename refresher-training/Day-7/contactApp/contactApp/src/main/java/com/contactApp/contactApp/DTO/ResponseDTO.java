@@ -1,6 +1,5 @@
 package com.contactApp.contactApp.DTO;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -14,7 +13,7 @@ public class ResponseDTO {
 
     private int id;
     private String name;
-    private String mail;
+    private String email;
     private String mobNo;
 
 }
