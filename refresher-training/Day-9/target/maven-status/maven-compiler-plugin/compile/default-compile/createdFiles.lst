@@ -1,0 +1,15 @@
+com\contactApp\contactApp\exception\GlobalExceptionHandler.class
+com\contactApp\contactApp\ContactAppApplication.class
+com\contactApp\contactApp\DTO\ExceptionResponseDto$ExceptionResponseDtoBuilder.class
+com\contactApp\contactApp\DTO\ExceptionResponseDto.class
+com\contactApp\contactApp\entity\ContactApp$ContactAppBuilder.class
+com\contactApp\contactApp\DTO\ResponseDTO.class
+com\contactApp\contactApp\DTO\ResponseDTO$ResponseDTOBuilder.class
+com\contactApp\contactApp\service\ContactAppInterface.class
+com\contactApp\contactApp\repository\ContactAppRepository.class
+com\contactApp\contactApp\service\ContactAppService.class
+com\contactApp\contactApp\entity\ContactApp.class
+com\contactApp\contactApp\controller\ContactAppController.class
+com\contactApp\contactApp\exception\ContactNotFoundException.class
+com\contactApp\contactApp\DTO\RequestDTO$RequestDTOBuilder.class
+com\contactApp\contactApp\DTO\RequestDTO.class
