@@ -677,3 +677,766 @@ An **in-memory database** stores data temporarily in memory while the applicatio
 - `ResponseEntity` → Controls HTTP responses
 - H2 → Lightweight in-memory database
 
+
+
+
+
+
+---
+
+# Day 8 – Contact App: CRUD Operations & Global Exception Handling
+
+## Overview
+
+On Day 8, the Contact Application was enhanced by implementing complete **CRUD Operations** and **Global Exception Handling** using Spring Boot.
+
+The application was structured using different layers such as Controller, Service, Repository, Entity, DTO, and Exception handling.
+
+---
+
+## Features Implemented
+
+### CRUD Operations
+
+Implemented all basic operations required for managing contacts:
+
+* **Create** – Add a new contact.
+* **Read** – Retrieve all contacts.
+* **Read by ID** – Retrieve a specific contact using its ID.
+* **Update** – Update an existing contact.
+* **Delete** – Delete a contact using its ID.
+
+---
+
+## Global Exception Handling
+
+Implemented centralized exception handling to manage errors consistently across the application.
+
+### Concepts Used
+
+* Custom Exceptions
+* `@RestControllerAdvice`
+* `@ExceptionHandler`
+* Proper HTTP Status Codes
+* Structured Error Responses
+* Contact Not Found Exception Handling
+
+### Example Flow
+
+```text
+Client Request
+      ↓
+Controller
+      ↓
+Service
+      ↓
+Repository
+      ↓
+Database
+      ↓
+Response
+
+If an error occurs:
+      ↓
+Global Exception Handler
+      ↓
+Structured Error Response
+```
+
+For example, when a contact ID does not exist, the application throws a custom exception. The global exception handler catches the exception and returns an appropriate error response with the correct HTTP status code.
+
+---
+
+## API Endpoints
+
+| HTTP Method | Endpoint         | Description                |
+| ----------- | ---------------- | -------------------------- |
+| POST        | `/contacts`      | Create a new contact       |
+| GET         | `/contacts`      | Get all contacts           |
+| GET         | `/contacts/{id}` | Get contact by ID          |
+| PUT         | `/contacts/{id}` | Update an existing contact |
+| DELETE      | `/contacts/{id}` | Delete a contact by ID     |
+
+---
+
+## Technologies Used
+
+* Java
+* Spring Boot
+* Spring Data JPA
+* H2 Database
+* REST API
+* Maven
+
+---
+
+## Project Structure
+
+```text
+ContactApp
+│
+├── controller
+│   └── Handles HTTP requests and responses
+│
+├── service
+│   └── Contains business logic
+│
+├── repository
+│   └── Handles database operations
+│
+├── entity
+│   └── Represents database tables
+│
+├── dto
+│   └── Handles request and response data
+│
+└── exception
+    └── Handles custom and global exceptions
+```
+
+---
+
+## Key Learnings
+
+* Implemented complete CRUD operations using Spring Boot.
+* Understood the layered architecture of a Spring Boot application.
+* Learned how to create and use custom exceptions.
+* Learned how `@RestControllerAdvice` handles exceptions globally.
+* Understood how `@ExceptionHandler` catches specific exceptions.
+* Learned to return appropriate HTTP status codes.
+* Improved API error handling and response structure.
+
+---
+
+## Day 8 Outcome
+
+Successfully implemented **CRUD Operations and Global Exception Handling** in the Contact Application, making the application more robust, maintainable, and user-friendly.
+
+---
+
+# Day 9 – Spring Boot, Controllers & REST APIs
+
+## Overview
+
+On Day 9, the focus was on understanding the core concepts of **Spring Boot**, including **Auto-Configuration**, **Spring Boot Starters**, **Embedded Server**, **Controllers**, **REST APIs**, and different ways of handling HTTP requests.
+
+---
+
+## 1. Spring Boot Auto-Configuration
+
+Learned how Spring Boot automatically configures beans and application components based on the dependencies available in the project.
+
+This reduces the need for large amounts of manual configuration.
+
+### `@SpringBootApplication`
+
+Understood that `@SpringBootApplication` combines three important annotations:
+
+```java
+@SpringBootApplication
+```
+
+It internally includes:
+
+* `@Configuration`
+* `@EnableAutoConfiguration`
+* `@ComponentScan`
+
+### Purpose
+
+* `@Configuration` – Marks the class as a configuration class.
+* `@EnableAutoConfiguration` – Automatically configures the application based on dependencies.
+* `@ComponentScan` – Scans packages and detects Spring components such as `@Controller`, `@Service`, and `@Repository`.
+
+---
+
+## 2. Spring Boot Starters
+
+Studied how Spring Boot starters simplify dependency management.
+
+For REST API and web development, the following starter was used:
+
+```text
+spring-boot-starter-web
+```
+
+A starter provides commonly required dependencies together, reducing the need to manually add each dependency.
+
+---
+
+## 3. Embedded Server
+
+Learned the concept of the embedded server in Spring Boot.
+
+Spring Boot applications can run independently because an embedded server such as **Tomcat** is included.
+
+### Traditional Application
+
+```text
+Application
+     ↓
+Create WAR File
+     ↓
+Install External Tomcat
+     ↓
+Deploy WAR
+     ↓
+Run Application
+```
+
+### Spring Boot Application
+
+```text
+Spring Boot Application
+         ↓
+Embedded Tomcat
+         ↓
+Run Main Method
+         ↓
+Application Starts
+```
+
+No separate server installation or WAR deployment is required for normal Spring Boot application execution.
+
+---
+
+## 4. Spring Controllers
+
+Worked with:
+
+* `@Controller`
+* `@RestController`
+* `@RequestMapping`
+
+Controllers receive HTTP requests from clients and send responses back.
+
+### Example
+
+```java
+@RestController
+@RequestMapping("/contacts")
+public class ContactController {
+}
+```
+
+`@RequestMapping("/contacts")` defines the common base URL for all endpoints inside the controller.
+
+---
+
+## 5. REST API Basics
+
+Implemented REST API endpoints using different HTTP methods.
+
+### Annotations Used
+
+```java
+@GetMapping
+@PostMapping
+@PutMapping
+@PatchMapping
+@DeleteMapping
+```
+
+### CRUD Mapping
+
+| HTTP Method | Operation      |
+| ----------- | -------------- |
+| POST        | Create         |
+| GET         | Read           |
+| PUT         | Update         |
+| PATCH       | Partial Update |
+| DELETE      | Delete         |
+
+---
+
+## 6. Request Handling
+
+Practiced receiving request data using:
+
+* `@RequestBody`
+* `@PathVariable`
+* `@RequestParam`
+
+### `@RequestBody`
+
+Used to receive JSON data from the request body and convert it into a Java object.
+
+```java
+@PostMapping
+public ContactResponse createContact(
+        @RequestBody ContactRequest request) {
+    // Logic
+}
+```
+
+### `@PathVariable`
+
+Used to receive values directly from the URL.
+
+```java
+@GetMapping("/{id}")
+public ContactResponse getContact(
+        @PathVariable Long id) {
+    // Logic
+}
+```
+
+Example URL:
+
+```text
+/contacts/1
+```
+
+Here, `1` is received as the `id`.
+
+### `@RequestParam`
+
+Used to receive query parameters.
+
+```java
+@GetMapping
+public String getContact(
+        @RequestParam String name) {
+    return name;
+}
+```
+
+Example:
+
+```text
+/contacts?name=Raj
+```
+
+---
+
+## Practical Work
+
+* Created Spring Boot REST controllers.
+* Created API endpoints for different HTTP methods.
+* Handled request data using `@RequestBody`.
+* Extracted path values using `@PathVariable`.
+* Handled query parameters using `@RequestParam`.
+* Tested REST APIs using Postman.
+* Verified the complete request and response flow.
+
+---
+
+## Key Learnings
+
+* Auto-configuration reduces manual configuration.
+* Spring Boot starters simplify dependency management.
+* Embedded Tomcat allows applications to run independently.
+* Controllers handle incoming HTTP requests.
+* REST APIs use HTTP methods for CRUD operations.
+* `@RequestBody`, `@PathVariable`, and `@RequestParam` handle different types of request data.
+
+---
+
+## Day 9 Outcome
+
+Successfully understood and implemented the basic flow of a **Spring Boot REST API**, from receiving an HTTP request in the controller to sending an appropriate response back to the client.
+
+---
+
+# Day 10 – Backend with Spring Boot
+
+## Overview
+
+On Day 10, the focus was on understanding how Spring Boot manages application dependencies, database connectivity, object mapping, entity relationships, and database lifecycle operations.
+
+The Contact Application backend was enhanced using **Dependency Injection**, **Spring JDBC**, **HikariCP**, **H2 Database**, **JPA/Hibernate**, **Entity Lifecycle Callbacks**, and **DTO Mapping**.
+
+---
+
+## 1. Dependency Injection in Spring Boot
+
+Studied the concepts of **Inversion of Control (IoC)** and **Dependency Injection (DI)**.
+
+Spring creates and manages application objects as **Spring Beans**.
+
+### Example
+
+```java
+@Service
+public class ContactService {
+
+    private final ContactRepository contactRepository;
+
+    public ContactService(ContactRepository contactRepository) {
+        this.contactRepository = contactRepository;
+    }
+}
+```
+
+Here, Spring automatically injects `ContactRepository` into `ContactService`.
+
+### Concepts Learned
+
+* Spring Beans
+* Inversion of Control
+* Dependency Injection
+* `@Autowired`
+* Constructor Injection
+* Type Matching
+* `@Primary`
+* `@Qualifier`
+
+---
+
+## 2. Spring Bean Scopes
+
+Studied different Spring Bean scopes.
+
+### Singleton Scope
+
+Only one object is created for the Spring Application Context.
+
+```text
+Spring Container
+       ↓
+One Bean Object
+       ↓
+Shared Across Application
+```
+
+### Prototype Scope
+
+A new object is created whenever the bean is requested.
+
+```text
+Bean Requested
+      ↓
+New Object
+
+Bean Requested Again
+      ↓
+Another New Object
+```
+
+---
+
+## 3. Spring JDBC
+
+Learned the basics of **JDBC (Java Database Connectivity)**.
+
+JDBC allows Java applications to communicate with relational databases.
+
+### JDBC Flow
+
+```text
+Java Application
+       ↓
+JDBC API
+       ↓
+JDBC Driver
+       ↓
+Database
+```
+
+Also studied **Spring JDBC** and `JdbcTemplate`.
+
+`JdbcTemplate` reduces JDBC boilerplate code and helps manage:
+
+* Connections
+* Statements
+* ResultSets
+* Resource Cleanup
+
+---
+
+## 4. HikariCP Connection Pool
+
+Learned about **HikariCP**, the connection pool commonly used by Spring Boot.
+
+Instead of creating a new database connection for every request, connections are reused.
+
+### Flow
+
+```text
+Application Request
+        ↓
+     DataSource
+        ↓
+   HikariCP Pool
+        ↓
+Existing Database Connection
+        ↓
+      Database
+```
+
+### Benefits
+
+* Improves performance.
+* Reduces the cost of creating database connections repeatedly.
+* Reuses existing connections.
+* Manages database connections efficiently.
+
+---
+
+## 5. H2 Database Integration
+
+Configured and integrated the **H2 In-Memory Database** with the Spring Boot application.
+
+### Learned
+
+* Database configuration using `application.properties`.
+* H2 in-memory database concepts.
+* H2 Console usage.
+* Executing SQL queries.
+* Testing CRUD operations.
+
+### Example Configuration
+
+```properties
+spring.datasource.url=jdbc:h2:mem:contactdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+
+spring.h2.console.enabled=true
+```
+
+---
+
+## 6. JPA Entity Lifecycle
+
+Studied JPA lifecycle callback annotations.
+
+### `@PrePersist`
+
+Executes before a new entity is inserted into the database.
+
+```java
+@PrePersist
+public void beforeSave() {
+    // Execute before INSERT
+}
+```
+
+### `@PreUpdate`
+
+Executes before an existing entity is updated.
+
+```java
+@PreUpdate
+public void beforeUpdate() {
+    // Execute before UPDATE
+}
+```
+
+These callbacks can be used for operations such as automatically setting:
+
+* Created Timestamp
+* Updated Timestamp
+* Default Values
+
+---
+
+## 7. Entity Relationships & Mapping
+
+Worked with JPA entity relationships.
+
+### Relationships Used
+
+* `@OneToMany`
+* `@ManyToOne`
+
+### `mappedBy`
+
+Used to define the inverse side of a bidirectional relationship.
+
+### `cascade`
+
+Used to define which operations should automatically propagate from one entity to related entities.
+
+For example:
+
+```text
+Save Parent
+     ↓
+Cascade
+     ↓
+Save Child
+```
+
+### `orphanRemoval`
+
+Used to automatically remove child entities when they are removed from their parent relationship.
+
+---
+
+## 8. DTO and Entity Mapping
+
+Created separate Mapper classes to convert objects between application layers.
+
+### Request Flow
+
+```text
+Client JSON Request
+        ↓
+RequestDTO
+        ↓
+Mapper
+        ↓
+Entity
+        ↓
+Repository
+        ↓
+Database
+```
+
+### Response Flow
+
+```text
+Database
+    ↓
+Entity
+    ↓
+Mapper
+    ↓
+ResponseDTO
+    ↓
+JSON Response
+    ↓
+Client
+```
+
+### Mapping Performed
+
+```text
+RequestDTO
+    ↓
+Mapper
+    ↓
+Entity
+```
+
+and
+
+```text
+Entity
+    ↓
+Mapper
+    ↓
+ResponseDTO
+```
+
+Using DTOs helps separate the database entity structure from the API request and response structure.
+
+---
+
+## Practical Implementation
+
+Enhanced the **Contact Application Backend** using Spring Boot.
+
+The application included:
+
+* Dependency Injection using Spring Beans.
+* Constructor-based dependency injection.
+* DTO-to-Entity mapping.
+* Entity-to-DTO mapping.
+* CRUD operations.
+* REST APIs.
+* H2 database integration.
+* Spring Data JPA.
+* JPA/Hibernate entity relationships.
+* Spring JDBC concepts.
+* HikariCP connection pooling.
+* JPA lifecycle callbacks.
+* Global exception handling.
+
+---
+
+# Overall Request Flow
+
+The complete request flow of the Contact Application is:
+
+```text
+Client / Postman
+       ↓
+HTTP Request
+       ↓
+Controller
+       ↓
+RequestDTO
+       ↓
+Service
+       ↓
+Mapper
+       ↓
+Entity
+       ↓
+Repository
+       ↓
+JPA / Hibernate
+       ↓
+H2 Database
+       ↓
+Entity
+       ↓
+Mapper
+       ↓
+ResponseDTO
+       ↓
+Controller
+       ↓
+HTTP Response
+       ↓
+Client / Postman
+```
+
+If an error occurs:
+
+```text
+Exception
+    ↓
+@RestControllerAdvice
+    ↓
+@ExceptionHandler
+    ↓
+Error Response
+    ↓
+Appropriate HTTP Status
+    ↓
+Client
+```
+
+---
+
+# Technologies Used
+
+* Java
+* Spring Boot
+* Spring MVC
+* Spring Web
+* Spring Data JPA
+* Hibernate
+* Spring JDBC
+* HikariCP
+* H2 Database
+* REST API
+* Maven
+* Postman
+
+---
+
+# Final Outcome
+
+By the end of **Day 8, Day 9, and Day 10**, I successfully enhanced the Contact Application and gained practical knowledge of:
+
+* Building REST APIs using Spring Boot.
+* Implementing complete CRUD operations.
+* Handling HTTP requests and responses.
+* Using Spring Boot Auto-Configuration and Starters.
+* Working with Controllers and REST APIs.
+* Managing dependencies using Dependency Injection.
+* Connecting Spring Boot applications with databases.
+* Using Spring Data JPA and Hibernate.
+* Managing database connections using HikariCP.
+* Working with the H2 in-memory database.
+* Understanding JPA entity lifecycle callbacks.
+* Implementing entity relationships.
+* Mapping DTOs and Entities.
+* Handling exceptions globally using `@RestControllerAdvice`.
+
+The Contact Application now follows a structured backend architecture and provides a strong foundation for building larger and more scalable Spring Boot applications.
