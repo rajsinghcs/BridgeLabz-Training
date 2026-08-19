@@ -1440,3 +1440,75 @@ By the end of **Day 8, Day 9, and Day 10**, I successfully enhanced the Contact 
 * Handling exceptions globally using `@RestControllerAdvice`.
 
 The Contact Application now follows a structured backend architecture and provides a strong foundation for building larger and more scalable Spring Boot applications.
+
+
+
+---
+
+# Day 11 - Employee Payroll App 
+
+## Overview
+
+The **Employee Payroll App** is a backend application built using **Spring Boot** and **Spring Data JPA** to manage employee records and payroll-related operations through REST APIs.
+
+## Features
+
+* Add, view, update, and delete employees
+* Get employee by ID
+* Search employees by name or department
+* Manage employee salary and deductions
+* Calculate gross and net salary
+* Use DTOs for request and response handling
+* Handle errors using custom exceptions and global exception handling
+
+## Technologies Used
+
+* Java
+* Spring Boot
+* Spring Data JPA
+* Hibernate
+* MySQL / H2 Database
+* Maven
+* REST APIs
+* Postman
+
+## Architecture
+
+```text
+Controller → Service → Repository → Database
+```
+
+* **Controller:** Handles HTTP requests
+* **Service:** Contains business logic
+* **Repository:** Performs database operations
+* **Entity:** Maps Java objects to database tables
+
+---
+
+# Day 12 – Custom Exception Handling
+
+Implemented complete **Employee CRUD operations** and centralized exception handling.
+
+### CRUD APIs
+
+* **POST** – Create Employee
+* **GET** – Get Employee(s)
+* **PUT** – Update Employee
+* **DELETE** – Delete Employee
+
+### Key Concepts
+
+* REST APIs
+* DTO Pattern
+* Spring Data JPA
+* CRUD Operations
+* Custom Exceptions
+* `EmployeeNotFoundException`
+* `@RestControllerAdvice`
+* `@ExceptionHandler`
+* HTTP Status Codes
+* Postman Testing
+
+## Outcome
+
+Successfully built Employee CRUD functionality with **DTOs, Spring Data JPA, and centralized custom exception handling**, making the Payroll application more maintainable and robust.
