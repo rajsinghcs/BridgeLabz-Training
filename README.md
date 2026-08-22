@@ -1512,3 +1512,93 @@ Implemented complete **Employee CRUD operations** and centralized exception hand
 ## Outcome
 
 Successfully built Employee CRUD functionality with **DTOs, Spring Data JPA, and centralized custom exception handling**, making the Payroll application more maintainable and robust.
+
+
+
+---
+
+# Day 13 – Spring Boot Profiles
+
+## Employee Payroll Application
+
+Today, I learned and implemented **Spring Boot Profiles** in the Employee Payroll Application.
+
+## What I Learned
+
+* What are Spring Boot Profiles
+* Why Spring Boot Profiles are used
+* Environment-specific configuration
+* `application.yml`
+* `application-dev.yml`
+* `application-prod.yml`
+* Activating a profile using `spring.profiles.active`
+
+## Implementation
+
+Previously, the application configuration was maintained in a single `application.properties` file.
+
+To support different environments, I implemented **Spring Boot Profiles** and separated the configuration into multiple YAML files:
+
+```text
+application.yml
+application-dev.yml
+application-prod.yml
+```
+
+This allows the application to use different configurations for development and production environments without changing the main application code.
+
+### Profile Configuration
+
+The active profile can be configured using:
+
+```properties
+spring.profiles.active=dev
+```
+
+When the `dev` profile is active, Spring Boot loads the configuration from:
+
+```text
+application.yml
+        +
+application-dev.yml
+```
+
+This makes it easier to manage environment-specific settings such as database configuration, server properties, and other application settings.
+
+---
+
+# Day 14 – Payroll Operations with Spring Profiles
+
+## Employee Payroll Application
+
+Today, I continued working on the **Employee Payroll Application** and tested the application using the **Spring Boot `dev` profile**.
+
+## Work Done
+
+* Tested the application using the `dev` profile.
+* Connected the application to the development **MySQL database**.
+* Performed CRUD operations on **Employee** data.
+* Performed Payroll operations and verified the stored data.
+* Tested REST APIs using **Postman**.
+* Verified that the application correctly loads configuration from the active profile.
+* Checked database records after performing operations.
+
+## Profile Flow
+
+```text
+Client / Postman
+       ↓
+Spring Boot Application
+       ↓
+Active Profile: dev
+       ↓
+application-dev.yml
+       ↓
+MySQL Database
+       ↓
+payroll_db
+```
+
+## Key Learning
+
+Through this implementation, I understood how **Spring Boot Profiles** help manage different configurations for different environments. The `dev` profile allows the application to connect to the development database, while separate profiles such as `prod` can be used for production-specific configuration.
